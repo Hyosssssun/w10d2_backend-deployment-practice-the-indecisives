@@ -1,11 +1,17 @@
 # Express/Postgres API for Shopping List Data
 
-When attempting to deploy this repo, remember to:
+- ✅ Open Heroku 
+- ✅ Connect to github repo that I want to connect (can choose branch as well)
+- ✅ Set a `DATABASE_URL` environment variable in a `.env` file.
+- ✅ Run the deploied page (there will be error)
+- ✅ npm run createTable
+- ✅ check the page again
 
-1. locally run the `npm run createTable` script (to set up the required database table).
+- you can check the log on deploy section of heroku.
 
-   - You'll need to have locally set a `DATABASE_URL` environment variable in a `.env` file.
+> Normally you wouldn't interact with production databases from a local machine, but we'll ignore this for now (as we're just focusing on getting things deployed).
 
-   - Normally you wouldn't interact with production databases from a local machine, but we'll ignore this for now (as we're just focusing on getting things deployed).
-
-2. ensure the `DATABASE_URL` variable is set (not just locally but also wherever you're deploying to).
+## update
+front: vigilant-golick-28364e.netlify.app(branch Sunny)
+back: deployed with github branch(Sunny)
+npm start and open frontend site
